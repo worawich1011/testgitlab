@@ -4,10 +4,10 @@ build:
   script:
   - npm install
   artifacts:
-  expire_in: 1 days
-  when: on_success
-  paths:
-    - node_modules/
+        expire_in: 1 days
+        when: on_success
+        paths:
+          - node_modules/
 
 test:
   script:
